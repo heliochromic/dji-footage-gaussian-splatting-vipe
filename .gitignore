@@ -1,0 +1,7 @@
+vipe/
+gaussian-splatting/
+results*/
+output.mp4
+__pycache__/
+*.pyc
+*.egg-info/
