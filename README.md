@@ -1,6 +1,6 @@
 # dji-footage-gaussian-splatting-vipe
 
-Link to google drive with vide of end-to-end run and final .ply: 
+Link to google drive with vide of end-to-end run and final .ply: https://drive.google.com/drive/folders/1MacHve-jrnOiM-e4RZ6t9G-RHBE_aLL4
 
 Automated pipeline that takes a video, reconstructs camera poses with [ViPE](https://github.com/nv-tlabs/vipe), trains a [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting) model, and evaluates the result.
 
