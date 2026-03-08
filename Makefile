@@ -67,9 +67,9 @@ metrics:
 
 all: vipe train render metrics
 
-clean: clean
+clean:
 	rm -rf vipe gaussian-splatting results
 	$(CONDA) env remove -n $(VIPE_ENV) -y 2>/dev/null || true
 	$(CONDA) env remove -n $(GS_ENV) -y 2>/dev/null || true
 
-.PHONY: install vipe visualize train render clean_results all clean
+.PHONY: install vipe visualize train render metrics all clean
