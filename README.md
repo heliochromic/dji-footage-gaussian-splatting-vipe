@@ -68,6 +68,10 @@ The Makefile uses two separate conda environments to isolate dependencies:
 
 `vipe` is the Python environment for ViPE (camera pose estimation, COLMAP conversion, Viser visualization). `gaussian_splatting` is the Python environment for 3DGS (training, rendering, metrics), includes custom CUDA kernels (`diff-gaussian-rasterization`, `simple-knn`).
 
+## Instance
+
+The pipeline was tested and run on an **NVIDIA RTX 4090** GPU with a **50 GB** volume storage configuration.
+
 ## Results
 
 ### Viser (Interactive 3D Viewer)
